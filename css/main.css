@@ -30,19 +30,14 @@ a .logo {
 .btn {
   cursor: pointer;
   outline: none;
-  background-color: #00ade5;
+  background-color: #003152;
   color: #fff;
   border-radius: 8px;
   border: none;
 }
 
 .btn:hover {
-  background-color: #003152;
-}
-
-button:hover {
-  background-color: #003152;
-  color: #fff;
+  background-color: #00ade5;
 }
 
 a {
