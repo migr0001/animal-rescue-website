@@ -1,0 +1,68 @@
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  background-color:  #003152;
+  color: #fff;
+  width: 100%;
+}
+
+header ul li {
+  display: inline-block;
+  float: left;
+}
+
+header ul li:hover {
+  background-color: #fff;
+  color: #000;
+  border-radius: 8px;
+}
+
+.icon {
+  width: 150px;
+}
+
+a .logo {
+  text-align: center;
+}
+
+.btn {
+  background-color: #000;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+div > img {
+  width: 100%;
+}
+
+footer {
+  background-color:  #003152;
+  color: #fff;
+}
+
+ul {
+  padding-left: 0;
+}
+
+footer > li > a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+svg:hover {
+  background-color: #fff;
+  border-radius: 8px;
+}
