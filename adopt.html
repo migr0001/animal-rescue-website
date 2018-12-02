@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>RESCUES | Clearwater Marine Aquarium</title>
+  <title>ADOPT | Clearwater Marine Aquarium</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
@@ -14,13 +14,13 @@
 
   <!-- header -->
   <div class="grid">
-    <header class="unit l-1">
+    <header role="banner" class="unit l-1">
       <div class="unit s-1 l-1-2 text-center">
         <div class="unit s-1-center logo island">
-          <a href="index.html" alt=""><img class="icon" src="images/logo.svg" alt=""></a>
+          <a href="index.html"><img class="icon" src="images/logo.svg" alt=""></a>
         </div>
       </div>
-      <nav class="unit s-1 l-1-2 right island-2">
+      <nav role="navigation" class="unit s-1 l-1-2 right island-2">
         <ul class="push-0">
           <li class="unit xs-1 m-1-3 text-center island-1-2 list-group-inline">
             <a href="index.html">Home</a>
@@ -36,23 +36,23 @@
     </header>
 
     <!-- end header, main content starts -->
-    <main class="grid grid-stretch pad-t-2">
+    <article role="main" class="grid grid-stretch pad-t-2">
       <div class="unit xs-1 m-1-3 pad-t-2 gutter">
         <nav class="unit xs-1">
           <h2 class="push-2 normal">Choose amount</h2>
           <ul class="unit xs-1 list-group-inline push-0">
             <li class="unit xs-1 push-1-2">
-              <button href="#" class="unit xs-1 island-2 btn text-center push-1-2 left" alt="">$10</button>
-              <button href="#" class="unit xs-1 island-2 btn text-center right" alt="">$20</button>
+              <button class="unit xs-1 island-2 btn text-center push-1-2 left">$10</button>
+              <button class="unit xs-1 island-2 btn text-center right">$20</button>
             </li>
             <li class="unit xs-1 push-1-2">
-              <button href="#" class="unit xs-1 island-2 btn text-center push-1-2 left" alt="">$50</button>
-              <button href="#" class="unit xs-1 island-2 btn text-center right" alt="">$100</button>
+              <button class="unit xs-1 island-2 btn text-center push-1-2 left">$50</button>
+              <button class="unit xs-1 island-2 btn text-center right">$100</button>
             </li>
           </ul>
           <div class="unit xs-1 push-2">
             <label for="animal">Other amount ($)</label>
-            <input id="animal" type="animal" required>
+            <input id="animal" type="text" required>
           </div>
         </nav>
       </div>
@@ -61,11 +61,11 @@
         <h2 class="push-2 normal">Fill out Sponsor Form</h2>
         <div class="unit xs-1 l-2-3 push">
           <label for="name">Name</label>
-          <input class="milli" id="name" type="name" placeholder="i.e Queen Freddie" required>
+          <input class="milli" id="name" type="text" placeholder="i.e Queen Freddie" required>
         </div>
         <div class="unit xs-1 l-2-3 push">
           <label for="last">Last Name</label>
-          <input class="milli" id="last-name" type="last-name" placeholder="i.e Mercury" required>
+          <input class="milli" id="last-name" type="text" placeholder="i.e Mercury" required>
         </div>
         <div class="unit xs-1 l-2-3 push">
           <label for="province">Province</label>
@@ -86,11 +86,11 @@
         </div>
         <div class="unit xs-1 l-2-3 push">
           <label for="city">City</label>
-          <input class="milli" id="city" type="city" placeholder="i.e Fandango, ON." required>
+          <input class="milli" id="city" type="text" placeholder="i.e Fandango, ON." required>
         </div>
         <div class="unit xs-1 l-2-3 push">
           <label for="home">Home Address</label>
-          <input class="milli" id="home" type="home" placeholder="i.e 39 BoRhap St." required>
+          <input class="milli" id="home" type="text" placeholder="i.e 39 BoRhap St." required>
         </div>
         <div class="unit xs-1 l-2-3 push">
           <label for="email">Email</label>
@@ -98,7 +98,7 @@
         </div>
         <div class="unit xs-1 l-2-3 push">
           <label for="province">Type of animal</label>
-          <select class="milli" id="province">
+          <select class="milli" id="animal-type">
             <option>(Select one)</option>
             <option>Dolphin</option>
             <option>Sea Turtles</option>
@@ -108,20 +108,20 @@
         </div>
         <div class="unit xs-1 l-2-3 push">
           <label for="details">Got any Questions?</label>
-          <textarea class="milli" id="details" class="pad-b-2" required></textarea>
+          <textarea class="milli pad-b-2" id="details" required></textarea>
         </div>
         <div class="pad-t-1-2 pad-b-2">
           <button class="btn unit xs-1-2 m-1-2 pad-b-1-4 text-center" type="submit">Sponsor now!</button>
         </div>
       </form>
-    </main>
+    </article>
     <!-- end main content -->
 
-    <footer class="unit xs-1 pad-t-2 pad-b-2">
+    <footer role="contentinfo" class="unit xs-1 pad-t-2 pad-b-2">
       <nav>
         <ul class="push-0 text-center">
           <li class="unit xs-1-center m-1-4 island list-group-inline icon">
-            <a href="#" alt="#">
+            <a href="#">
               <svg id="instagram" width="1in" height="1in" viewBox="0 0 288 288">
                 <g id="vIHMGo" fill="#fff">
                   <path d="M0 143.5C.3 63.6 65-.6 144.5 0S288.3 65 288 144.3 222.5 288.5 143.2 288-.3 222.8 0 143.5zm184.8 86.3c24.8-1.1 44.2-19.8 44.9-44.4q1.2-41.7 0-83.4a45 45 0 0 0-43.4-44.1c-28.3-1-56.7-1-84.9 0a44.9 44.9 0 0 0-43.6 44c-.8 27.9-.8 55.9 0 83.8.7 22.4 16.3 39.8 38.5 43 15.5 2.2 74.7 1.7 88.5 1.1z"/>
@@ -132,7 +132,7 @@
             </a>
           </li>
           <li class="unit xs-1-4-center m-1-4 island list-group-inline icon">
-            <a href="#" alt="#">
+            <a href="#">
               <svg id="facebook" width="1in" height="1in" viewBox="0 0 288 288">
                 <g id="ARgBx3">
                   <path fill="#fff" d="M0 144a144 144 0 1 1 288 .1c0 79.7-64.6 144-144.4 143.9S0 223.4 0 144zm152.9 51.8c0-15.7.1-31.3 0-47 0-1.5.4-2 2-2h21.9c1.1 0 1.6-.3 1.7-1.4.5-5 1.1-9.9 1.6-14.9s.9-10.5 1.6-15.7c.2-1.6-.2-1.9-1.7-1.9h-22.9c-4.1 0-4.2 0-4.1-4.1 0-6.2.1-12.5.4-18.7a7 7 0 0 1 3.9-6.1c2.6-1.3 5.3-1.3 8-1.3h14.4c1.6 0 2-.6 2-2.1V50.8c0-1.3-.3-1.9-1.8-1.9-6.4.1-12.8 0-19.2 0s-14.1 0-21.1 2-13.6 6-17.9 12.5-6.6 16.5-6.9 25.4-.2 15-.2 22.4c0 1.5-.5 1.8-1.8 1.8H97.3c-1.4-.1-1.8.4-1.8 1.7q.1 15.1 0 30.3c0 1.5.5 1.9 1.9 1.9h15c2.2 0 2.2 0 2.2 2.2v93.4c0 2.2 0 2.2 2.2 2.2h34.1c1.6 0 2.1-.4 2.1-2-.1-15.7-.1-31.3-.1-46.9z"/>
@@ -141,7 +141,7 @@
             </a>
           </li>
           <li class="unit xs-1-center m-1-4 island list-group-inline icon">
-            <a href="#" alt="#">
+            <a href="#">
               <svg id="youtube" width="1in" height="1in" viewBox="0 0 288 288">
                 <g id="SSvIjs" fill="#fff">
                   <path d="M288 144.5c-.5 79.7-65.4 144-144.7 143.5S-.4 222.7 0 143.5 65.4-.6 144.7 0 288.5 65.3 288 144.5zm-78.7 61c9.8-.5 17-5.5 20.3-15.1 1.4-4 3.5-83.5-.1-92.8s-9.5-13.2-18.4-14.5c-3.5-.5-89.9-2.8-129.6-.6-14.1.8-21.2 6.9-24.8 20.7-.6 2.2-.4 78 1.6 87s8.2 12.6 16.2 14.4c4.5 1 116.5 1.8 134.8.9z"/>

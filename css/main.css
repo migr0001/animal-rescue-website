@@ -1,9 +1,9 @@
 html {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 header {
-  background-color:  #003152;
+  background-color: #003152;
   color: #fff;
   width: 100%;
 }
@@ -49,8 +49,6 @@ a {
   outline: none;
   text-decoration: none;
   color: #fff;
-  text-transform: uppercase;
-  font-weight: bold;
 }
 
 div > img {
@@ -58,7 +56,7 @@ div > img {
 }
 
 footer {
-  background-color:  #003152;
+  background-color: #003152;
   color: #fff;
 }
 
