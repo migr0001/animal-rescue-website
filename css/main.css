@@ -2,15 +2,29 @@ html {
   font-family: Raleway, sans-serif;
 }
 
+nav:hover {
+  border-color: #00ade5;
+}
+
 .logo:hover {
   opacity: .7;
   transition: .5s ease;
 }
 
-a .logo {
+.logo {
   cursor: pointer;
   outline: none;
   text-align: center;
+  display: block;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .logo {
+    text-align: left;
+    padding: 2em;
+  }
+
 }
 
 .skip-links {
@@ -99,6 +113,25 @@ div > img {
   opacity: 1;
   background-color: #003152;
   color: #fff;
+}
+
+svg {
+  fill: #fff;
+}
+
+#vihmgo:hover {
+  fill: #aadbee;
+  transition: .5s ease;
+}
+
+#argbx3:hover {
+  fill: #aadbee;
+  transition: .5s ease;
+}
+
+#ssvijs:hover {
+  fill: #aadbee;
+  transition: .5s ease;
 }
 
 footer {
