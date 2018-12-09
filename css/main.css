@@ -2,13 +2,9 @@ html {
   font-family: Raleway, sans-serif;
 }
 
-nav:hover {
-  border-color: #00ade5;
-}
-
 .logo:hover {
   opacity: .7;
-  transition: .5s ease;
+  transition: .5s;
 }
 
 .logo {
@@ -16,6 +12,37 @@ nav:hover {
   outline: none;
   text-align: center;
   display: block;
+}
+
+header {
+  background-color: #003152;
+  color: #fff;
+  width: 100%;
+}
+
+nav ul li {
+  display: inline-block;
+  float: left;
+}
+
+nav ul li:hover {
+  background-color: #00ade5;
+  border-radius: 8px;
+}
+
+.page {
+  border-bottom: 4px solid #00ade5;
+}
+
+@media only screen and (min-width: 38em) {
+
+  footer > nav {
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    display: block;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -27,32 +54,11 @@ nav:hover {
 
 }
 
-.skip-links {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
 .skip-links a {
   position: absolute;
   top: -3em;
   background-color: #fff;
   color: #000;
-}
-
-header {
-  background-color: #003152;
-  color: #fff;
-  width: 100%;
-}
-
-header ul li {
-  display: inline-block;
-  float: left;
-}
-
-header ul li:hover {
-  background-color: #00ade5;
   border-radius: 8px;
 }
 
@@ -75,7 +81,7 @@ ul {
 .btn:hover {
   cursor: pointer;
   background-color: #00ade5;
-  border-color: #00ade5;
+  border: 2px solid #00ade5;
 }
 
 a {
@@ -97,7 +103,7 @@ div > img {
 
 .picture {
   opacity: .7;
-  transition: .5s ease;
+  transition: 1s ease;
 }
 
 .picture:hover {
@@ -120,17 +126,17 @@ svg {
 }
 
 #vihmgo:hover {
-  fill: #aadbee;
+  fill: #89d4c5;
   transition: .5s ease;
 }
 
 #argbx3:hover {
-  fill: #aadbee;
+  fill: #89d4c5;
   transition: .5s ease;
 }
 
 #ssvijs:hover {
-  fill: #aadbee;
+  fill: #89d4c5;
   transition: .5s ease;
 }
 
