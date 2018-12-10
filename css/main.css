@@ -1,9 +1,16 @@
 html {
   font-family: Raleway, sans-serif;
+  background-color: #ecf1ef;
+}
+
+header {
+  background-color: #003152;
+  color: #fff;
+  width: 100%;
 }
 
 .logo:hover {
-  opacity: .7;
+  opacity: 1;
   transition: .5s;
 }
 
@@ -12,12 +19,15 @@ html {
   outline: none;
   text-align: center;
   display: block;
+  opacity: .5;
 }
 
-header {
-  background-color: #003152;
-  color: #fff;
-  width: 100%;
+body {
+  outline: #ecf1ef;
+}
+
+.page {
+  border-bottom: 4px solid #00ade5;
 }
 
 nav ul li {
@@ -27,16 +37,13 @@ nav ul li {
 
 nav ul li:hover {
   background-color: #00ade5;
+  color: #ecf1ef;
   border-radius: 8px;
-}
-
-.page {
-  border-bottom: 4px solid #00ade5;
 }
 
 @media only screen and (min-width: 38em) {
 
-  footer > nav {
+  footer {
     cursor: pointer;
     outline: none;
     text-align: center;
@@ -57,13 +64,9 @@ nav ul li:hover {
 .skip-links a {
   position: absolute;
   top: -3em;
-  background-color: #fff;
-  color: #000;
+  background-color: #00ade5;
+  color: #ecf1ef;
   border-radius: 8px;
-}
-
-ul {
-  padding-left: 0;
 }
 
 .icon {
@@ -73,22 +76,23 @@ ul {
 .btn {
   cursor: pointer;
   background-color: #003152;
-  color: #fff;
+  color: #ecf1ef;
   border-radius: 8px;
-  border: 2px solid #fff;
+  border: 2px solid #ecf1ef;
 }
 
 .btn:hover {
   cursor: pointer;
   background-color: #00ade5;
   border: 2px solid #00ade5;
+  color: #ecf1ef;
 }
 
 a {
   cursor: pointer;
   outline: none;
   text-decoration: none;
-  color: #fff;
+  color: #ecf1ef;
 }
 
 div > img {
@@ -97,7 +101,9 @@ div > img {
 }
 
 .card {
+  background-color: #fff;
   border: 2px solid #003152;
+  color: #003152;
   border-radius: 8px;
 }
 
@@ -118,26 +124,29 @@ div > img {
 .transparent:hover {
   opacity: 1;
   background-color: #003152;
-  color: #fff;
+  color: #cef0f9;
 }
 
 svg {
-  fill: #fff;
+  opacity: .5;
+}
+
+svg:hover {
+  fill: #81d8d0;
+  opacity: 1;
 }
 
 #vihmgo:hover {
-  fill: #89d4c5;
-  transition: .5s ease;
+  fill: #81d8d0;
 }
 
-#argbx3:hover {
-  fill: #89d4c5;
-  transition: .5s ease;
+svg > g > path:hover {
+  fill: #81d8d0;
+  opacity: 1;
 }
 
 #ssvijs:hover {
-  fill: #89d4c5;
-  transition: .5s ease;
+  fill: #81d8d0;
 }
 
 footer {
