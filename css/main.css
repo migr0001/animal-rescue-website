@@ -21,8 +21,26 @@ header {
   opacity: .5;
 }
 
+.dash {
+  animation: dash .7s ease infinite;
+}
+
+@keyframes dash {
+
+  25% {
+    opacity: .7;
+    color: #003152;
+  }
+
+  100% {
+    color: #fff;
+    opacity: 1;
+  }
+
+}
+
 .page {
-  border-bottom: 4px solid #61d7ff;
+  border-bottom: 4px solid #00ade5;
   padding-bottom: .5em;
 }
 
@@ -32,13 +50,15 @@ nav ul li {
 }
 
 nav ul li:hover {
-  background-color: #61d7ff;
   color: #003152;
   border-radius: 8px;
 }
 
-nav ul li a:hover {
+header nav ul li:hover {
+  background-color: #00ade5;
   color: #003152;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 38em) {
@@ -64,7 +84,7 @@ nav ul li a:hover {
 .skip-links a {
   position: absolute;
   top: -3em;
-  background-color: #61d7ff;
+  background-color: #00ade5;
   color: #003152;
   border-radius: 8px;
 }
@@ -83,9 +103,10 @@ nav ul li a:hover {
 
 .btn:hover {
   cursor: pointer;
-  background-color: #61d7ff;
-  border: 2px solid #61d7ff;
-  color: #003152;
+  background-color: #00ade5;
+  border: 2px solid #00ade5;
+  color: #fff;
+  font-weight: bold;
 }
 
 a {
@@ -132,21 +153,12 @@ svg {
 }
 
 svg:hover {
-  fill: #81d8d0;
   opacity: 1;
-}
-
-#vihmgo:hover {
-  fill: #81d8d0;
+  transition: .5s ease;
 }
 
 svg > g > path:hover {
-  fill: #81d8d0;
   opacity: 1;
-}
-
-#ssvijs:hover {
-  fill: #81d8d0;
 }
 
 footer {
