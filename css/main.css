@@ -44,6 +44,10 @@ header {
   padding-bottom: .5em;
 }
 
+.rescue {
+  padding-top: 3em;
+}
+
 nav ul li {
   display: inline-block;
   float: left;
